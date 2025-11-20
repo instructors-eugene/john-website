@@ -1,0 +1,431 @@
+.menu_link_1 {
+  margin: 4px;
+}
+
+.menu_link_2 {
+  margin: 8px;
+}
+
+.menu_link_3 {
+  margin: 12px;
+}
+
+.menu_link_4 {
+  margin: 16px;
+}
+
+.menu_link_5 {
+  margin: 20px;
+}
+
+.menu_link_1 {
+  margin: 4px;
+}
+
+.menu_link_2 {
+  margin: 8px;
+}
+
+.menu_link_3 {
+  margin: 12px;
+}
+
+.post_card {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: white;
+}
+
+.white_background {
+  background: white;
+}
+
+.common_wrapper {
+  max-width: 856px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navigation_wrapper {
+  width: 944px;
+  margin: 0 auto;
+}
+
+.flex_block {
+  display: flex;
+}
+
+.navigation {
+  margin-top: 27px;
+}
+
+.first_section {
+  padding-top: 143px;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu_link {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+}
+
+.menu_link::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #00a8cc;
+  transition: 0.3s ease-in-out;
+}
+
+.menu_link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.menu_link a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.menu_link a:hover {
+  color: #00a8cc;
+}
+
+.main_title {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  width: 445px;
+}
+
+.main_description {
+  color: #21243d;
+  width: 497px;
+}
+
+.main_button {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  padding: 9px 20px;
+  background-color: #ff6464;
+  border-radius: 2px;
+  border: 2px solid #ff6464;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.3s ease-in-out;
+}
+
+.main_button:hover {
+  background-color: #fff;
+  color: #ff6464;
+}
+
+.main_button:active {
+  background-color: #fff;
+  color: #ff6464;
+  scale: 0.98;
+}
+
+.about_myself {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  gap: 39px;
+}
+
+.main_image_wrapper {
+  border-radius: 50%;
+  box-shadow: -5px 13px 0px #edf7fa;
+  height: 243px;
+}
+
+.main_image_wrapper img {
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.content1 {
+  background: white;
+  width: 374px;
+  height: 85px;
+  float: left;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.content2 {
+  background: white;
+  width: 374px;
+  height: 85px;
+  float: left;
+  padding: 40px;
+}
+
+.posts_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 7px 0px;
+}
+
+.recent_posts_title {
+  color: #21243d;
+  font-size: 22px;
+  line-height: 60px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link2 {
+  color: #00a8cc;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.link2:hover {
+  text-decoration: underline;
+}
+
+.blue_background {
+  background: #edf7fa;
+}
+
+.common_wrapper2 {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.posts_cards_wrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 2px;
+}
+
+.post_card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 22px;
+  gap: 20px;
+  width: 50%;
+}
+
+.card_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  color: #21243d;
+}
+
+.card_title {
+  color: #21243d;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.card_description {
+  color: #21243d;
+  font-size: 16px;
+}
+
+.work_wrapper {
+  display: flex;
+  gap: 18px;
+  flex-wrap: nowrap;
+}
+
+.work_description_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 35px;
+}
+
+.work_description_tags {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.work_description_year {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+  border-radius: 16px;
+  padding: 6px 10px 5px;
+  background-color: #142850;
+}
+
+.work_description_text {
+  color: #8695a4;
+  font-size: 20px;
+}
+
+.work_description_title {
+  color: #21243d;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.work_description_main_description {
+  color: #21243d;
+  font-size: 16px;
+}
+
+.work_divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 32px;
+}
+
+.part3 {
+  padding: 200px 200px 50px 240px;
+}
+
+.footer {
+  background-color: #fff;
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+
+.burger {
+  display: none;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  background-color: #ff6464;
+}
+
+.footer_inner_wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.socials_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 232px;
+  justify-content: space-between;
+}
+
+.socials_wrapper a svg path {
+  transition: 0.3s ease-in-out;
+}
+
+.socials_wrapper a:hover svg path {
+  fill: #ff6464;
+}
+
+.footer_copy {
+  font-size: 14px;
+  font-weight: 400;
+  color: #21243d;
+  text-align: center;
+}
+
+@media screen and (max-width: 890px) {
+  .header {
+    height: 50px;
+  }
+  .header .navigation {
+    margin-top: 0;
+    padding: 12px 18px;
+  }
+  .header .navigation .menu {
+    display: none;
+  }
+  .header .navigation_wrapper {
+    width: calc(100% - 36px);
+  }
+  .burger {
+    display: block;
+  }
+  .first_section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 59px;
+    padding-top: 33px;
+  }
+  .about_myself {
+    align-items: center;
+    padding: 0 24px;
+    gap: 20px;
+    margin-top: 34px;
+  }
+  .main_title {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 312px;
+    color: #21243d;
+  }
+  .main_description {
+    width: 100%;
+    text-align: center;
+  }
+  .main_image_wrapper,
+  .main_image_wrapper img {
+    width: 180px;
+    height: 180px;
+  }
+  .posts_header {
+    justify-content: center;
+  }
+  .link2 {
+    display: none;
+  }
+  .recent_posts_title {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .posts_cards_wrapper {
+    flex-wrap: wrap;
+    margin: 0 10px;
+    gap: 17px;
+  }
+  .post_card {
+    width: 100%;
+  }
+  .card_title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .card_info {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=styles.css.map */
